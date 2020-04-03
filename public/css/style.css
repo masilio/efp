@@ -1,0 +1,208 @@
+body, html {
+	font-family: 'Open Sans', sans-serif;
+	}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 0 20px 0;
+	font-weight: 700;
+	font-size: 32px;
+	color: #333;
+}
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	color: #333;
+}
+h4 {
+	font-size: 18px;
+	color: #333;
+}
+h5 {
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 20px;
+}
+p {
+	font-size: 15px;
+}
+
+hr {
+	height: 2px;
+	width: 70px;
+	text-align: center;
+	position: relative;
+	background: #1E7A46;
+	margin-bottom: 20px;
+	border: 0;
+}
+
+.section-title {
+	margin-bottom: 60px;
+}
+.section-title h2 {
+	
+	margin-top: 10%;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+.section-title h2::after {
+	
+	background-color: #e52f3c;
+	height: 3px;
+	width: 50px;
+	bottom: -1px;
+	left: 0;
+}
+
+
+/* About Section */
+#about {
+	padding: 110px 0;
+	background: #f6f6f6;
+}
+#about h3 {
+	font-size: 22px;
+	margin: 0 0 20px 0;
+}
+#about h2 {
+	position: relative;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+#about h2::after {
+	position: absolute;
+	content: "";
+	background-color: #e52f3c;
+	height: 3px;
+	width: 50px;
+	bottom: -1px;
+	left: 0;
+}
+#about img {
+	padding: 20px;
+	width: 500px;
+	margin-top: 10px;
+	background: #fff;
+	border-right: 0;
+	box-shadow: 0 0 50px rgba(0,0,0,0.06);
+}
+#about p {
+	line-height: 24px;
+	margin: 30px 0;
+}
+/* Services Section */
+#rent {
+	padding: 100px 0;
+}
+#rent h3 {
+	font-weight: 700;
+	padding: 5px 0;
+}
+
+#sale {
+	padding: 100px 0;
+	background: #f6f6f6;
+}
+
+#auction {
+	padding: 100px 0;
+}
+#auction i {
+	color: #e6e6e6;
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+/* Contact Section */
+#contact {
+	padding: 100px 0 60px 0;
+	background: #1f386e;
+	color: rgba(255,255,255,.65);
+}
+#contact .section-title {
+	margin-bottom: 40px;
+}
+#contact h2 {
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+}
+#contact h4 {
+	color: #fff;
+	margin-top: 22px;
+	margin-bottom: 60px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+}
+#contact form {
+	padding-top: 20px;
+}
+#contact h3 {
+	font-size: 17px;
+	font-weight: 600;
+}
+#contact .text-danger {
+	color: #cc0033;
+	text-align: left;
+}
+#contact .btn-custom {
+	margin: 30px 0;
+	background: transparent;
+	border: 2px solid #fff;
+}
+#contact .btn-custom:hover {
+	color: #1f386e;
+	background: #fff;
+}
+
+#contact .contact-item {
+	margin: 20px 0;
+}
+#contact .contact-item span {
+	color: rgba(255,255,255,1);
+	
+}
+#contact .social {
+	border-top: 1px solid rgba(255,255,255,0.1);
+	padding-top: 50px;
+	margin-top: 50px;
+	text-align: center;
+}
+#contact .social ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+#contact .social i.fi {
+	font-size: 24px;
+	padding: 10px;
+	color: rgba(255,255,255,0.6);
+	transition: all 0.3s;
+}
+#contact .social i.fi:hover {
+	color: #fff;
+}
+/* Footer Section*/
+#footer {
+	background: #f6f6f6;
+	padding: 30px 0;
+}
+#footer p {
+	color: #888;
+	font-size: 14px;
+}
+#footer a {
+	color: #1f386e;
+}
+#footer a:hover {
+	color: #e52f3c;
+}
+
+@media (max-width: 768px) {
+#about img {
+	margin: 50px 0;
+}
+}
